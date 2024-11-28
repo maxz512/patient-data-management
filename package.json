@@ -1,12 +1,26 @@
 {
   "name": "patient-data-management",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A project for managing patient data",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "echo \"No tests yet\" && exit 0", 
+    "build": "echo \"Building the project...\"",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1296.0",
+    "express": "^4.18.2", 
+    "dotenv": "^16.0.3",
+    "body-parser": "^1.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   },
   "author": "",
-  "license": "ISC",
-  "keywords": [],
-  "description": ""
+  "license": "ISC"
 }
